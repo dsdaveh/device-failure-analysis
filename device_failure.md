@@ -1,4 +1,4 @@
-# AWS Device Failure Analysis - notebook
+# Device Failure Analysis - notebook
 Dave Hurst  
 
 

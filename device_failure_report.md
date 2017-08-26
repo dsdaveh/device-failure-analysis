@@ -6,7 +6,7 @@ August 22, 2017
 
 # Overview
 
-This document summarizes an analysis performed on an exercise surround a  [device_failure.csv](http://aws-proserve-data-science.s3.amazonaws.com/device_failure.csv) dataset. I will review the dataset, some exploratory data analysis, modeling and results of the analysis in a manner that might be typical of a work product. I have also created a companion document, **Device Failure Analysis - notebook**, that is intended to be a lab notebook documenting the entire thought process throughout the analysis, and has more extensive R code and model results. 
+This document summarizes an analysis performed on an exercise surrounding a  [device_failure.csv](https://github.com/dsdaveh/device-failure-analysis/blob/master/device_failure.csv) dataset. I will review the dataset, some exploratory data analysis, modeling and results of the analysis in a manner that might be typical of a work product. I have also created a companion document, [Device Failure Analysis - notebook](https://github.com/dsdaveh/device-failure-analysis/blob/master/device_failure.md), that is intended to be a lab notebook documenting the entire thought process throughout the analysis, and has more extensive R code and model results. 
 
 We have the following minimal background:
 
@@ -420,7 +420,7 @@ varImpPlot(rf2,type=2)
 
 Drift for attribute 4 was almost always the primary indicator of failure across all folds and models. After that n_rec and and variance for attributes 6 and 7 were also important, but switched rank between the different folds/models. 
 
-Additional models were also explored and their results are presented in the accompanying lab notebook.
+Additional models were also explored and their results are presented in the [accompanying lab-style notebook]((https://github.com/dsdaveh/device-failure-analysis/blob/master/device_failure.md)).
 
 Some observations from this phase:
 

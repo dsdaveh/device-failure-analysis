@@ -1,5 +1,5 @@
 ---
-title: "AWS Device Failure Analysis - notebook"
+title: "Device Failure Analysis - notebook"
 author: "Dave Hurst"
 output:
   html_document:
@@ -10,6 +10,7 @@ output:
     toc: yes
     toc_depth: 2
     code_folding: show
+    toc_float: true
   pdf_document:
     toc: yes
     toc_depth: '2'
