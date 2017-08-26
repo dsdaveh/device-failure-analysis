@@ -477,3 +477,7 @@ print(min_cost$cm)
 ```
 
 So now we see the optimum cutoff point is 0.4 which means we predict pending failure for more drives (compared to a cutoff at 0.5), but don't reduce the cutoff too drastically since avoiding unnecessary maintenance is still a driver of cost reduction.
+
+# Conclusion
+
+We've completed an introductory analysis, and without too much work, can reliably predict about half the failures before they occur, assuming our data is representative of true field logs. With more data, we might be able to make better predictions, and could incorporate other techniques such as neural networks into the analysis. With more information on the cost of false negative/positives, we could also try updating a GBM model with a custom objective function to further optimize the training. In the real world, we might spend some research time digging into some of the attribute values to see if encoding specific values might also give lift to the model. As it stands, the model informs us on the most important attributes, and could lead to a productive discussion with the stakeholders and business subject matter experts that would help identify the next logical steps.
